@@ -1,0 +1,38 @@
+# ---- data ----
+data/
+*.npy
+*.parquet
+*.dat
+*.hea
+*.atr
+
+# ---- outputs ----
+outputs/models/*.pt
+outputs/models/*.joblib
+outputs/tables/*.csv
+outputs/figures/*.png
+!outputs/.gitkeep
+!outputs/tables/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/models/.gitkeep
+
+# ---- python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# ---- colab ----
+*.log
+
+# ---- generated archives ----
+*.zip
+build.log
+
+# ---- editors ----
+.vscode/
+.idea/
